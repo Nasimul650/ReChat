@@ -64,7 +64,7 @@ const Chats = () => {
                 <div className="logo-tab">
                     ReChat
                 </div>
-                <div onClick={handleLogout} className="logout-tab">
+                <div onClick={handleLogout} className="button-20 logout-tab">
                     Logout
                 </div>
             </div>
@@ -77,5 +77,11 @@ const Chats = () => {
         </div>
     )
 }
+
+
+    // <button class="" role="button">Button 20</button>
+    
+
+    
 
 export default Chats
